@@ -2,9 +2,6 @@
 @import url('reset.css');
 @import url('common.css');
 
-/* 메인컨텐츠 내용 */
-/* 🤚 header, footer => common.css */
-
 /* main_visual */
 
 .main_visual{
@@ -92,9 +89,6 @@
     /* 456px */
     position: relative;
 }
-/* .tea_name .inner > div:nth-child(n + 4){
-    margin-top: 8rem;
-} */
 .tea_name .inner > div:nth-child(3) ~ div{
     margin-top: 8rem;
 }
