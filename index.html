@@ -11,12 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         $(function () {
-            // $('.mobile_menu').click(function(){
-            //     $(this).toggleClass('on')
-            //     $('.mobile_gnb').toggleClass('on')
-            // })
-
-
             let pcDepth01 =$('.pc .depth_01')
             let pcDepth02 =$('.pc .depth_02')
 
@@ -41,7 +35,6 @@
 
             mobileBtn.click(function(){
                 if(mobileNav.offset().left == -$(window).width()){
-                    //조건이 맞으면 실행
                     $(this).addClass('on');
                     mobileNav.animate({
                         left : '0'
